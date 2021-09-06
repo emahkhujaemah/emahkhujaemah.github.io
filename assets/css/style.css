@@ -1,0 +1,49 @@
+.bodi{
+    background-color: rgb(48, 200, 226);
+}
+
+.jumbroton{
+    background-image: url(../img/background.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 40px;
+    color: #3dcaf5;
+}
+
+.jumbroton img{
+    width: 200px; 
+    border: 5px solid #3dcaf5;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+
+}
+
+.jumbroton h1, .jumbroton p{
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
+
+li a{
+    color: white;
+    
+}
+
+li a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.active{
+    color: white;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    background-color: aqua;
+}
+
+.biodata{
+    padding-left: 30px;
+}
+
+
+
