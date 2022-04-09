@@ -45,5 +45,35 @@ h2{
     padding-left: 30px;
 }
 
+#topbar {
+    background: #181717;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  #topbar .contact-info i {
+    font-style: normal;
+    color: #e96b56;
+  }
+  #topbar .contact-info i a, #topbar .contact-info i span {
+    padding-left: 5px;
+    color: #fff;
+  }
+  #topbar .contact-info i a {
+    line-height: 0;
+    transition: 0.3s;
+  }
+  #topbar .contact-info i a:hover {
+    color: #e96b56;
+  }
+  #topbar .social-links a {
+    color: #bababa;
+    line-height: 0;
+    transition: 0.3s;
+    margin-left: 10px;
+  }
+  #topbar .social-links a:hover {
+    color: white;
+  }
+
 
 
