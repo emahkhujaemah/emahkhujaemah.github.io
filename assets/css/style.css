@@ -1,5 +1,51 @@
+html {
+  position: relative;
+}
+
 .bodi {
   background-color: rgb(48, 200, 226);
+}
+
+.about hr {
+  width: 196px;
+  border-top: 3px solid #014e66;
+  margin-left: 130px;
+}
+
+.biodata {
+  padding-left: 25px;
+}
+
+.pLeft {
+  opacity: 0;
+  transform: translate(-50px, 0) rotate(15deg);
+  transition: 1s;
+}
+
+.pRight {
+  opacity: 0;
+  transform: translate(50px, 0) rotate(-15deg);
+  transition: 1s;
+}
+
+.pLeft.pShow {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.pRight.pShow {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.personal {
+  padding-left: 90px;
+}
+
+.project hr {
+  width: 196px;
+  border-top: 3px solid #014e66;
+  margin-left: 130px;
 }
 
 .jumbroton {
@@ -23,6 +69,17 @@
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
 }
 
+#project .card {
+  opacity: 0;
+  transform: translate(0, -50px);
+  transition: 0.5s;
+}
+
+#project .card.show {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
 li a {
   color: white;
 
@@ -41,10 +98,6 @@ li a:hover {
 h2 {
   text-align: center;
   background-color: aqua;
-}
-
-.biodata {
-  padding-left: 30px;
 }
 
 #topbar {
